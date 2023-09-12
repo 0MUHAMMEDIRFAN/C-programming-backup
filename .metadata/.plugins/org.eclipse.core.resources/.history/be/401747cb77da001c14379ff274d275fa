@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	char b[10],a[10];
+	setbuf(stdout,NULL);
+	int x,z,c=0;
+	setbuf(stdout,NULL);
+	puts("\n\t enter a string");
+	scanf("%s",a);
+	for(x=9;x>=0;x--)
+	{
+		for(z=c;z<=c;z++)
+		{
+			b[z]=a[x];
+			c=c+1;
+		}
+	}
+
+	printf("\n%s",a);
+
+	return EXIT_SUCCESS;
+}

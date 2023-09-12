@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int x,z,c=0,spell;
+	setbuf(stdout,NULL);
+	puts("enter the number of spelling in your string");
+	scanf("%d",&spell);
+	spell++;
+	char b[spell],a[spell];
+	setbuf(stdout,NULL);
+	puts("\n\t enter a string");
+	for(x=0;x<spell;x++)
+	{
+		scanf("%c",&a[x]);
+	}
+	for(x=spell-1;x>=0;x--)
+		{
+			for(z=c;z<c+1;z++)
+			{
+				b[z]=a[x];
+			}c=c+1;
+		}
+	if(a==b)
+	{
+	printf("\nentered string is palindrome");
+	}else
+		printf("\nsorry.tis string is not palindrome");
+	printf("\n%s \t %s",a,b);
+	return EXIT_SUCCESS;
+}

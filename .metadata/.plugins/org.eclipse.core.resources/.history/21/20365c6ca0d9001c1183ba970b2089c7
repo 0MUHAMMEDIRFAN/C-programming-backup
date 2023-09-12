@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int a,x;
+	setbuf(stdout,NULL);
+	printf("\n\t enter the size of arrays = ");
+	scanf("%d",&a);
+	int array1[a],array2[a];
+	printf("enter the values of array 1 = ");
+	for(x=0;x<a;x++)
+	{
+		scanf("%d",&array1[x]);
+	}
+	printf("enter the values of array 2 = ");
+	for(x=0;x<a;x++)
+		{
+			scanf("%d",&array1[x]);
+		}
+	return EXIT_SUCCESS;
+}

@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int x,z,c=0,spell;
+	setbuf(stdout,NULL);
+	puts("enter the number of spelling in your string");
+	scanf("%d",&spell);
+	char b[spell+1],a[spell+1];
+	setbuf(stdout,NULL);
+	puts("\n\t enter a string");
+	for(x=0;x<spell+2;x++)
+	{
+		scanf("%c",&a[x]);
+	}
+	for(x=spell-1;x>=0;x--)
+		{
+			for(z=c;z<c+1;z++)
+			{
+				b[z]=a[x];
+			}c=c+1;
+		}
+	printf("\nentered array is %s",a);
+
+	return EXIT_SUCCESS;
+}

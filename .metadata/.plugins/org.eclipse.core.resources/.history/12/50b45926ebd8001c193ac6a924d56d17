@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int b,a[4][3],x;
+	printf("give me numbrs\n");
+	for(b=0;b<3;b++){
+		for(x=0;x<4;x++){
+		scanf("%d",&a[b][x]);
+		printf("\t");
+		}
+		printf("\n");
+	}
+	return EXIT_SUCCESS;
+}

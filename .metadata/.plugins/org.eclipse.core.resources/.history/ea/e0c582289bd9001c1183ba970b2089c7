@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int a,x;
+	setbuf(stdout,NULL);
+	puts("\n \t give me a number");
+	scanf("%d",&a);
+	for(x=1;x<11;x++)
+	{
+		printf("\n\t%d x %d = %d",x,a,a*x);
+	}
+	return EXIT_SUCCESS;
+}

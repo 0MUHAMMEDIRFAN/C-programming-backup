@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+int getarray(int);
+void displayarray(int);
+int main(void) {
+	int a[5];
+	getarray();
+	return EXIT_SUCCESS;
+}
+
+int getarray(int a[5]){
+	int x;
+	printf("enter the values");
+	for(x=0;x<5;x++)
+	{
+		scanf("%d",&a[x]);
+	}
+	return a[5];
+}
+
+void displayarray(int a[5]){
+	int x;
+	for(x=0;x<5;x++)
+		printf("%d",a[x]);
+	return;
+}

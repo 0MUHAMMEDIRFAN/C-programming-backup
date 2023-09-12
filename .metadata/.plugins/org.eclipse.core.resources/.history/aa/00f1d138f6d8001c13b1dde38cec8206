@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+int sum();
+int main(void)
+{
+	int a,b,x;
+	setbuf(stdout,NULL);
+	printf("enter");
+	scanf("%d %d",&a,&b);
+	x=sum(a,b);
+	printf("%d",x);
+	return EXIT_SUCCESS;
+}
+
+int sum(int a, int b){
+	int s;
+	setbuf(stdout,NULL);
+	s=a+b;
+	return s;
+}

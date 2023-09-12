@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;multi array/src/function.c&apos; to &apos;multi array.c&apos;" description="Rename resource &apos;function.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/function.c" name="multi array.c" stamp="1653128389298" updateReferences="true"/>
+</session>

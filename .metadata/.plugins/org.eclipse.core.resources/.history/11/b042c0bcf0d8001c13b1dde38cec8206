@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int a;
+	sum();
+	return EXIT_SUCCESS;
+}
+
+sum (){
+	int a,b,s;
+	scanf("%d %d",&a,&b);
+	s=a+b;
+	printf("%d",s);
+
+}

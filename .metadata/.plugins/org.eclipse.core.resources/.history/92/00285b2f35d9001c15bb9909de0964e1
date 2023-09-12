@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int mark;
+	setbuf(stdout,NULL);
+	printf("enter your mark");
+	scanf("%d",&mark);
+	if(mark<50)
+		printf("\nstudent is failed");
+		else
+			printf("\nstudent is passed");
+	return EXIT_SUCCESS;
+}

@@ -1,0 +1,7 @@
+23:20:10 **** Incremental Build of configuration Debug for project check2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\check2.o" "..\\src\\check2.c" 
+gcc -o check2.exe "src\\check2.o" 
+
+23:20:10 Build Finished. 0 errors, 0 warnings. (took 310ms)
+

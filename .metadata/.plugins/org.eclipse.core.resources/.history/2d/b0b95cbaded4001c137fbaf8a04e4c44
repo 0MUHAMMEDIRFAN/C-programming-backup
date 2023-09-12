@@ -1,0 +1,29 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int num1,num2,ans;
+	setbuf(stdout,NULL);
+	char choice;
+	setbuf(stdout,NULL);
+	printf("\n\tenter your NUMERS : ");
+	scanf("%d %d",&num1,&num2);
+	printf("\n\twhat do you want \n\t PRESS + for addition \n\t PRESS - for subtraction \n\t PRESS * for multiplication \n\t PRESS / for division");
+	scanf("%c",&choice);
+	switch(choice)
+	{
+		case '+' :ans=num1+num2;
+			break;
+		case '-' :ans=num1-num2;
+			break;
+		case '*' :ans=num1*num2;
+			break;
+		case '/' :ans=num1/num2;
+			break;
+		default:printf("\n\tyou entered operator is not in this list");
+	}
+		printf("\n\t the result is %d",ans);
+
+	return EXIT_SUCCESS;
+}

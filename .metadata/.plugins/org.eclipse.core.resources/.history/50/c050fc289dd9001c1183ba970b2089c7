@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+int a();
+int main(void){
+	int x,y,a;
+	printf("how many rows and columns you need? ");
+	scanf("%d",&a);
+	for(x=1;x<a;x++)
+	{
+		printf("\n");
+		for(y=1;y<=x;y++)
+			printf(" %d",y);
+	}
+
+}
+
+
+	int a(){
+	int a,x,sum=0;
+	setbuf(stdout,NULL);
+	puts("\n \t give me a limit");
+	scanf("%d",&a);
+	for(x=1;x<=a;x=x+2)
+	{
+		sum=sum+x;
+
+	}
+	printf("\n\t sm of odd number = %d",sum);
+	return EXIT_SUCCESS;
+}

@@ -1,0 +1,104 @@
+22:29:22 **** Rebuild of configuration Debug for project test last in c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test last in c.o" "..\\src\\test last in c.c" 
+gcc -o "test last in c.exe" "src\\test last in c.o" 
+22:29:28 **** Incremental Build of configuration Debug for project test last in c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test last in c.o" "..\\src\\test last in c.c" 
+..\src\test last in c.c: In function 'main':
+..\src\test last in c.c:7:2: error: too few arguments to function 'getarray'
+..\src\test last in c.c:3:5: note: declared here
+..\src\test last in c.c:6:6: warning: unused variable 'a'
+..\src\test last in c.c: At top level:
+..\src\test last in c.c:11:5: error: conflicting types for 'getarray'
+..\src\test last in c.c:3:5: note: previous declaration of 'getarray' was here
+..\src\test last in c.c:21:6: error: conflicting types for 'displayarray'
+..\src\test last in c.c:4:6: note: previous declaration of 'displayarray' was here
+22:30:39 **** Incremental Build of configuration Debug for project test last in c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test last in c.o" "..\\src\\test last in c.c" 
+gcc -o "test last in c.exe" "src\\test last in c.o" 
+22:30:50 **** Incremental Build of configuration Debug for project test last in c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test last in c.o" "..\\src\\test last in c.c" 
+gcc -o "test last in c.exe" "src\\test last in c.o" 
+c:/mingw-w64-bin_x86_64-mingw_20111101_sezero/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.5.4/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file test last in c.exe: Permission denied
+collect2: ld returned 1 exit status
+22:30:56 **** Incremental Build of configuration Debug for project test last in c ****
+Info: Internal Builder is used for build
+gcc -o "test last in c.exe" "src\\test last in c.o" 
+c:/mingw-w64-bin_x86_64-mingw_20111101_sezero/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.5.4/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file test last in c.exe: Permission denied
+collect2: ld returned 1 exit status
+22:30:57 **** Incremental Build of configuration Debug for project test last in c ****
+Info: Internal Builder is used for build
+gcc -o "test last in c.exe" "src\\test last in c.o" 
+c:/mingw-w64-bin_x86_64-mingw_20111101_sezero/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.5.4/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file test last in c.exe: Permission denied
+collect2: ld returned 1 exit status
+22:31:00 **** Incremental Build of configuration Debug for project test last in c ****
+Info: Internal Builder is used for build
+gcc -o "test last in c.exe" "src\\test last in c.o" 
+Info: Nothing to build for test last in c
+Info: Nothing to build for test last in c
+22:31:38 **** Incremental Build of configuration Debug for project test last in c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test last in c.o" "..\\src\\test last in c.c" 
+gcc -o "test last in c.exe" "src\\test last in c.o" 
+Info: Nothing to build for test last in c
+22:37:22 **** Incremental Build of configuration Debug for project test last in c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test last in c.o" "..\\src\\test last in c.c" 
+gcc -o "test last in c.exe" "src\\test last in c.o" 
+22:38:59 **** Incremental Build of configuration Debug for project test last in c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test last in c.o" "..\\src\\test last in c.c" 
+..\src\test last in c.c: In function 'getarray':
+..\src\test last in c.c:20:2: warning: return makes integer from pointer without a cast
+gcc -o "test last in c.exe" "src\\test last in c.o" 
+Info: Nothing to build for test last in c
+22:39:40 **** Incremental Build of configuration Debug for project test last in c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test last in c.o" "..\\src\\test last in c.c" 
+..\src\test last in c.c: In function 'getarray':
+..\src\test last in c.c:20:2: warning: return makes integer from pointer without a cast
+gcc -o "test last in c.exe" "src\\test last in c.o" 
+c:/mingw-w64-bin_x86_64-mingw_20111101_sezero/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.5.4/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file test last in c.exe: Permission denied
+collect2: ld returned 1 exit status
+22:39:45 **** Incremental Build of configuration Debug for project test last in c ****
+Info: Internal Builder is used for build
+gcc -o "test last in c.exe" "src\\test last in c.o" 
+22:40:43 **** Incremental Build of configuration Debug for project test last in c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test last in c.o" "..\\src\\test last in c.c" 
+..\src\test last in c.c: In function 'getarray':
+..\src\test last in c.c:20:2: warning: return makes integer from pointer without a cast
+gcc -o "test last in c.exe" "src\\test last in c.o" 
+22:41:23 **** Incremental Build of configuration Debug for project test last in c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test last in c.o" "..\\src\\test last in c.c" 
+gcc -o "test last in c.exe" "src\\test last in c.o" 
+22:42:11 **** Incremental Build of configuration Debug for project test last in c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test last in c.o" "..\\src\\test last in c.c" 
+gcc -o "test last in c.exe" "src\\test last in c.o" 
+22:43:28 **** Incremental Build of configuration Debug for project test last in c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test last in c.o" "..\\src\\test last in c.c" 
+gcc -o "test last in c.exe" "src\\test last in c.o" 
+22:44:44 **** Incremental Build of configuration Debug for project test last in c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test last in c.o" "..\\src\\test last in c.c" 
+..\src\test last in c.c: In function 'getarray':
+..\src\test last in c.c:14:6: warning: unused variable 'x'
+gcc -o "test last in c.exe" "src\\test last in c.o" 
+22:45:46 **** Incremental Build of configuration Debug for project test last in c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test last in c.o" "..\\src\\test last in c.c" 
+..\src\test last in c.c: In function 'main':
+..\src\test last in c.c:6:6: warning: unused variable 'b'
+gcc -o "test last in c.exe" "src\\test last in c.o" 
+22:45:57 **** Incremental Build of configuration Debug for project test last in c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test last in c.o" "..\\src\\test last in c.c" 
+..\src\test last in c.c: In function 'main':
+..\src\test last in c.c:6:6: warning: unused variable 'b'
+gcc -o "test last in c.exe" "src\\test last in c.o" 

@@ -1,0 +1,9 @@
+22:45:57 **** Incremental Build of configuration Debug for project test last in c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test last in c.o" "..\\src\\test last in c.c" 
+..\src\test last in c.c: In function 'main':
+..\src\test last in c.c:6:6: warning: unused variable 'b'
+gcc -o "test last in c.exe" "src\\test last in c.o" 
+
+22:45:57 Build Finished. 0 errors, 1 warnings. (took 295ms)
+

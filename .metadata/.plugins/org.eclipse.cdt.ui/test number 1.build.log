@@ -1,0 +1,9 @@
+23:54:41 **** Incremental Build of configuration Debug for project test number 1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test number 1.o" "..\\src\\test number 1.c" 
+..\src\test number 1.c: In function 'main':
+..\src\test number 1.c:7:2: warning: too many arguments for format
+gcc -o "test number 1.exe" "src\\test number 1.o" 
+
+23:54:42 Build Finished. 0 errors, 1 warnings. (took 330ms)
+
